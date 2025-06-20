@@ -1,10 +1,13 @@
 import express, { Request, Response } from "express";
+import { sum } from "./utils/functions";
 
 const app = express();
 const PORT: number = 8080;
 
 app.get("/", (req: Request, res: Response) => {
-  res.status(200).send("Hello TS");
+  const sumResult = sum(3, 2);
+
+  res.status(200).send(`Hello TS > ${sumResult}`);
 });
 
 app

@@ -30,9 +30,9 @@ npx tsc
 node dist/index.js
 ```
 
-# 🧹 Configurar ESLint
+# Configurar ESLint
 
-## Instalar ESLint + soporte para TypeScript
+## 🧹 Instalar ESLint + soporte para TypeScript
 
 ```bash
 npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin

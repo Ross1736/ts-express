@@ -7,13 +7,14 @@
     "lint": "eslint ./src --ext .ts",
     "lint:fix": "eslint ./src --ext .ts --fix",
     "type:check": "tsc --noEmit",
-    "start": "nodemon"
+    "start": "ts-node src/index.ts",
+    "dev": "nodemon --watch src --ext ts --exec ts-node src/index.ts"
   },
   "keywords": [],
   "author": "Ross Valencia",
   "license": "ISC",
   "description": "Express Typescript Server",
-  "type": "module",
+  "type": "commonjs",
   "dependencies": {
     "express": "^5.1.0"
   },
