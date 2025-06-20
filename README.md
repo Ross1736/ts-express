@@ -30,7 +30,7 @@ npx tsc
 node dist/index.js
 ```
 
-# Configurar ESLint
+# 🧹 Configurar ESLint
 
 ## Instalar ESLint + soporte para TypeScript
 
