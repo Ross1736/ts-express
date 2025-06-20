@@ -1,20 +1,45 @@
-Instala ts
+# 🚀 Configuración de TypeScript + ESLint en Node.js
+
+## Instalar TypeScript
+
+```bash
 npm i -D typescript
+```
 
-Instala tipos
+## Instalar tipos para Express y dotenv
+
+```bash
 npm install -D @types/express @types/dotenv
+```
 
-Inicia ts
+## Inicializar TypeScript
+
+```bash
 npx tsc --init
+```
 
-Compilar
+## Compilar proyecto
+
+```bash
 npx tsc
+```
 
-Ejecutar
+## Ejecutar proyecto compilado
+
+```bash
 node dist/index.js
+```
 
-Instalar eslint
+# Configurar ESLint
+
+## Instalar ESLint + soporte para TypeScript
+
+```bash
 npm install --save-dev eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
 
-Iniciar eslint
+## Iniciar ESLint
+
+```bash
 npx eslint --init
+```
